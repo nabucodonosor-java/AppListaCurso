@@ -1,8 +1,10 @@
-package com.mapin.applistcurso;
+package com.mapin.applistcurso.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.mapin.applistcurso.R;
 
 public class MainActivity extends AppCompatActivity {
     @Override
