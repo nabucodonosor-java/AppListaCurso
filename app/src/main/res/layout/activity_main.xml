@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNome"
+        android:id="@+id/editPrimeiroNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -30,6 +30,7 @@
         android:hint="@string/edit_txt_nome"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColorHint="#757575"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +50,7 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNome"
+        app:layout_constraintTop_toBottomOf="@+id/editPrimeiroNome"
         app:layout_constraintWidth="match_parent"
         tools:ignore="MissingConstraints" />
 
@@ -63,6 +64,7 @@
         android:hint="@string/edit_txt_curso"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColorHint="#757575"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextSobrenome"
@@ -79,6 +81,7 @@
         android:hint="@string/edit_txt_telefone"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColorHint="#757575"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextCurso"
@@ -92,6 +95,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="52dp"
         android:text="LIMPAR"
+        android:textColor="#311B92"
         app:backgroundTint="@color/corBotoes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTelefone" />
